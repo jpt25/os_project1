@@ -29,6 +29,15 @@ I have:
 3. splits the action and messgae
 4. writes output into logfile.txt
 
+This includes running tests  like...
+YYYY-MM-DD HH:MM [ACTION] MESSAGE
+So, the log message “START Logging Started.”, logged March 2nd, 2025 at 11:32 am would be
+recorded as below.
+2025-03-02 11:32 [START] Logging Started.
+with proper function.
+
+Next I will be working on the encryption.py
+This will take "command argument" where it can do: PASS, ENCRYPT, DECRYPT, QUIT, RESULT, ERROR.
 
 
 
