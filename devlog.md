@@ -20,3 +20,15 @@ I will get the [action "Message"] input along with the ouput of
 [timestamp [action] "message"]
 The next log will be the final logger.py confirmation along with the push of the code to the 
 main branch when it is done. 
+
+10/11 11:15 AM - logger.py
+Throughout the last day I have worked on the logger.py file to complete it.
+I have: 
+1. created a filter to confirm it comes in script name + log file name
+2. gets the log file name
+3. splits the action and messgae
+4. writes output into logfile.txt
+
+
+
+
