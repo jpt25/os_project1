@@ -53,4 +53,10 @@ I have confirmed the accuracy of my program by following the example given in th
 
 The next and final part of the project is the driver.py
 
+The drivers job is taking the "driver.py logfile.txt" and create processes linking the
+logger and encryption programs, connecting the input and output.
+It will have prompted commands being: PASSWORD, ENCRYPT, DECRYPT, HISTORY, QUIT
+It will loop until the user "QUIT"s logging everything thr user does.
+Also with error buffers!
+
 
