@@ -37,7 +37,20 @@ recorded as below.
 with proper function.
 
 Next I will be working on the encryption.py
+
 This will take "command argument" where it can do: PASS, ENCRYPT, DECRYPT, QUIT, RESULT, ERROR.
 
+10/13 4:00 PM
+Throughout the last day I have worked on the encryption.py file to complete it.
+I have: 
+1. created an ENCRYPT and DECRYPT text using Vigenère cypher
+2. created "PASS" command to recieve the key used
+3. on "QUIT" quit
+4. on "ENCRYPT" or "DECRYPT" if key = None, then "ERROR"
+5. print "RESULT" if preceeding command completes
+
+I have confirmed the accuracy of my program by following the example given in the instructions
+
+The next and final part of the project is the driver.py
 
 
