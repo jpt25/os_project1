@@ -19,14 +19,14 @@ def main():
                 break
 
 # split action and message at first whitespace
-            spaceSplit = line.split(None, 1)
-            action = spaceSplit[0]
-            message = spaceSplit[1] if len(spaceSplit) > 1 else ""
+            space_split = line.split(None, 1)
+            action = space_split[0]
+            message = space_split[1] if len(space_split) > 1 else ""
 
-            timeStamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+            time_stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
 
 # Write log entry formatted properly
-            finalLog.write(f"{timeStamp} [{action}] {message}\n")
+            finalLog.write(f"{time_stamp} [{action}] {message}\n")
             finalLog.flush()
 
 if __name__ == "__main__":
