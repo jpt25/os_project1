@@ -42,13 +42,13 @@ class EncryptionDriver:
     
     # retrieve user input
     def get_user_input(self, prompt, use_history=True):
-        use_history = False
+        use_hist = False
         if use_history:
             answer = input("Use history? (y/n) ").strip().lower()
             if answer == "y":
-                use_history = True
+                use_hist = True
 
-        if use_history:
+        if use_hist:
             selected = self.select_from_history()
             if selected:
                 return selected
