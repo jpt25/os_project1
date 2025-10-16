@@ -59,4 +59,17 @@ It will have prompted commands being: PASSWORD, ENCRYPT, DECRYPT, HISTORY, QUIT
 It will loop until the user "QUIT"s logging everything thr user does.
 Also with error buffers!
 
+10/16 5:00 PM
+I finally completed the driver.py file
+I have:
+1. initialize the logger + encryptor + logfile.txt
+2. start the logger + encryptor while sending log to logger
+3. send text to incryptor
+4. retrieve user input (with validation checking)
+5. let user select from history / show empty
+6. enter and handle new passwords / encryptions / decryptions
+7. show the history
+8. exit the program
+9. only take valid inputs of commands
 
+This project has been stressful, yet enjoyful as it comes to a close. Thank You!
