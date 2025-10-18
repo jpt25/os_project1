@@ -6,7 +6,7 @@ import subprocess
 class EncryptionDriver:
     
     # communication for logger + encryptor
-    def __init__(self, logfile_txt):
+    def initialize(self, logfile_txt):
         self.logfile_txt = logfile_txt
         self.history = []
         self.logger = None
@@ -184,8 +184,8 @@ def main():
         print("Usage: driver.py <logfile>")
         sys.exit(1)
     
-    logfile = sys.argv[1]
-    driver = EncryptionDriver(logfile)
+    driver = EncryptionDriver()
+    driver.initialize(sys.argv[1])
     driver.start()
     driver.run()
 
