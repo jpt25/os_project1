@@ -37,8 +37,8 @@ class EncryptionDriver:
         message = f"{command} {argument}\n" if argument else f"{command}\n"
         self.encryptor.stdin.write(message)
         self.encryptor.stdin.flush()
-        response = self.encryptor.stdout.readline()
-        return response.rstrip()
+        response = self.encryptor.stdout.readline().rstrip()
+        return response
     
     # retrieve user input
     def get_user_input(self, prompt, use_history=True):
