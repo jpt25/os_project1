@@ -73,3 +73,6 @@ I have:
 9. only take valid inputs of commands
 
 This project has been stressful, yet enjoyful as it comes to a close. Thank You!
+
+10/18 2:00 PM
+Coming back today, I have been touching up the project while adding the read me, now complete.
